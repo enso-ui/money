@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/money",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "Money vue component",
   "main": "index.js",
   "scripts": {
