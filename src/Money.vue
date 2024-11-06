@@ -6,6 +6,7 @@
         :disabled="disabled"
         :readonly="readonly"
         :placeholder="placeholder"
+        :tabindex="tabindex"
         type="tel"
         @blur="focus = false; attemptUpdate($event)"
         @keydown.enter.prevent="attemptUpdate"
@@ -63,6 +64,10 @@ export default {
         positive: {
             type: String,
             default: '%s %v',
+        },
+        tabindex: {
+            type: Number,
+            default: null,
         },
         negative: {
             type: String,
