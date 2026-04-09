@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import accounting from 'accounting-js';
+import * as accounting from 'accounting-js';
 
 export default {
     name: 'Money',
