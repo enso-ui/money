@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/enso-ui/money#readme",
   "dependencies": {
-    "accounting-js": "^1.1.1",
-    "vue": "^3.0"
+    "accounting-js": "^1.1.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "vue": "^3.5.0"
   }
 }
