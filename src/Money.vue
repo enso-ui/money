@@ -134,3 +134,10 @@ export default {
     },
 };
 </script>
+
+<style lang="scss">
+input {
+    min-height: var(--bulma-control-height);
+    height: var(--bulma-control-height);
+}
+</style>
