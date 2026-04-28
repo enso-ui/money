@@ -2,7 +2,8 @@
     <span v-if="label">
         {{ money }}
     </span>
-    <input v-model="money"
+    <input class="money-input"
+        v-model="money"
         :disabled="disabled"
         :readonly="readonly"
         :placeholder="placeholder"
@@ -136,7 +137,7 @@ export default {
 </script>
 
 <style lang="scss">
-input {
+.money-input {
     min-height: var(--bulma-control-height);
     height: var(--bulma-control-height);
 }
